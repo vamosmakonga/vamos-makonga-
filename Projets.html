@@ -1,0 +1,104 @@
+'<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Projets | Vamos Makonga</title>
+<link rel="stylesheet" href="style.css">
+<style>
+.projets-header{text-align:center;padding:50px 20px 20px 20px}
+.projets-header h1{font-size:38px;font-weight:900}
+.projets-header h1 span{color:#7c3aed}
+.projets-header p{color:#aaa;max-width:500px;margin:15px auto;font-size:18px}
+.grid{max-width:900px;margin:30px auto;padding:0 20px;display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:20px}
+.projet-card{background:#121212;border:1px solid #222;border-radius:16px;overflow:hidden;transition:0.3s}
+.projet-card:hover{transform:translateY(-5px);border-color:#7c3aed}
+.projet-img{height:170px;background:linear-gradient(135deg,#7c3aed,#22c55e);display:flex;align-items:center;justify-content:center;font-size:60px}
+.projet-info{padding:20px}
+.projet-info h3{font-size:20px;margin-bottom:8px}
+.projet-info small{color:#7c3aed;font-weight:700;letter-spacing:1px}
+.projet-info p{color:#aaa;margin:10px 0 15px 0;font-size:15px}
+.tags{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:15px}
+.tag{background:#1e1e1e;border:1px solid #333;padding:4px 10px;border-radius:100px;font-size:12px;color:#ccc}
+.projet-btns{display:flex;gap:10px}
+.projet-btns a{flex:1;text-align:center;padding:10px;border-radius:8px;font-weight:700;font-size:14px}
+.btn-demo{background:#7c3aed;color:#fff}
+.btn-code{background:#1f1f1f;color:#fff;border:1px solid #333}
+</style>
+</head>
+<body>
+
+<nav>
+  <div class="logo">V.Makonga</div>
+  <ul id="navLinks">
+    <li><a href="index.html">Accueil</a></li>
+    <li><a href="Projets.html">Projets</a></li>
+    <li><a href="mon.html">CV</a></li>
+    <li><a href="index.html#contact">Contact</a></li>
+  </ul>
+  <div id="menuBtn">☰</div>
+</nav>
+
+<div class="projets-header">
+  <h1>Mes <span>Projets</span></h1>
+  <p>Tout est codé depuis mon Itel à Kamina. Pas d'excuse, que du résultat.</p>
+</div>
+
+<div class="grid">
+
+  <div class="projet-card">
+    <div class="projet-img">
+  <img src="https://i.postimg.cc/XXXXX/ton-image.jpg" style="width:100%;height:100%;object-fit:cover">
+    </div>
+    <div class="projet-info">
+      <small>SITE VITRINE</small>
+      <h3>Boutique Kamina Shop</h3>
+      <p>Site e-commerce rapide pour un commerçant local. Paiement WhatsApp, livraison Kamina.</p>
+      <div class="tags"><span class="tag">HTML</span><span class="tag">CSS</span><span class="tag">JS</span></div>
+      <div class="projet-btns">
+        <a href="#" class="btn-demo">Voir Démo</a>
+        <a href="https://wa.me/243824326060?text=Je%20veux%20ce%20site%20boutique" class="btn-code">Commander</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="projet-card">
+    <div class="projet-img">🍽️</div>
+    <div class="projet-info">
+      <small>RESTAURATION</small>
+      <h3>Resto Haut-Lomami</h3>
+      <p>Menu digital + commande WhatsApp. Le client commande sans appeler, tout est automatisé.</p>
+      <div class="tags"><span class="tag">Mobile First</span><span class="tag">WhatsApp API</span></div>
+      <div class="projet-btns">
+        <a href="#" class="btn-demo">Voir Démo</a>
+        <a href="https://wa.me/243824326060?text=Je%20veux%20le%20site%20resto" class="btn-code">Commander</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="projet-card">
+    <div class="projet-img">💼</div>
+    <div class="projet-info">
+      <small>PORTFOLIO</small>
+      <h3>Portfolio V.Makonga V1</h3>
+      <p>Mon ancien portfolio. 100% codé sur Acode, hébergé gratuit. Preuve qu'on peut tout faire sur mobile.</p>
+      <div class="tags"><span class="tag">Acode</span><span class="tag">Termux</span><span class="tag">Android</span></div>
+      <div class="projet-btns">
+        <a href="index.html" class="btn-demo">Voir Démo</a>
+        <a href="mon.html" class="btn-code">Mon CV</a>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<div class="cta-whatsapp" style="margin-top:50px">
+  <h3>Tu veux ton projet ici ?</h3>
+  <p>Je te fais un site en 72h depuis Kamina</p>
+  <a href="https://wa.me/243824326060?text=Bonjour%20Vamos%20!%20J'ai%20un%20projet">+243 824 326 060</a>
+</div>
+
+<footer>Fait à Kamina depuis un Android - 2026</footer>
+<script src="script.js"></script>
+</body>
+</html>

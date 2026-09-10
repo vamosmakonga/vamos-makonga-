@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mon CV | Vamos Makonga</title>
+<link rel="stylesheet" href="style.css">
+<style>
+.cv-header{text-align:center;padding:40px 20px}
+.cv-header img{width:120px;height:120px;border-radius:50%;border:3px solid #7c3aed;object-fit:cover;margin-bottom:15px}
+.cv-grid{max-width:800px;margin:0 auto;padding:20px;display:grid;gap:20px}
+.cv-card{background:#121212;border:1px solid #222;padding:22px;border-radius:14px}
+.cv-card h3{color:#7c3aed;margin-bottom:12px;font-size:18px;letter-spacing:1px}
+.skill{display:flex;justify-content:space-between;margin:8px 0;background:#1a1a1a;padding:8px 12px;border-radius:8px}
+.bar{height:6px;background:#222;border-radius:10px;margin-top:6px;overflow:hidden}
+.bar div{height:100%;background:#7c3aed}
+.timeline-item{border-left:2px solid #222;padding-left:15px;margin:15px 0;position:relative}
+.timeline-item::before{content:'';width:10px;height:10px;background:#7c3aed;border-radius:50%;position:absolute;left:-6px;top:5px}
+</style>
+</head>
+<body>
+
+<nav>
+  <div class="logo">V.Makonga</div>
+  <ul id="navLinks">
+    <li><a href="index.html">Accueil</a></li>
+    <li><a href="Projets.html">Projets</a></li>
+    <li><a href="mon.html">CV</a></li>
+    <li><a href="index.html#contact">Contact</a></li>
+  </ul>
+  <div id="menuBtn">☰</div>
+</nav>
+
+<div class="cv-header">
+  <img src="https://i.postimg.cc/85HQZXW2/moi.jpg">
+  <h1>Vamos MAKONGA</h1>
+  <p style="color:#7c3aed;font-weight:800;font-size:20px">Développeur Full Stack</p>
+  <p style="color:#aaa;margin-top:8px">Kamina, RDC | +243 824 326 060 | vamosrafa5@gmail.com</p>
+  <a href="https://wa.me/243824326060?text=Bonjour%20Vamos%2C%20j'ai%20vu%20ton%20CV" class="btn primary" style="margin-top:15px">Me Contacter</a>
+</div>
+
+<div class="cv-grid">
+
+  <div class="cv-card">
+    <h3>🎯 PROFIL</h3>
+    <p>Développeur Full Stack autodidacte depuis Kamina. Je code depuis un téléphone Itel avec Acode & Termux. Spécialisé dans la création de sites rapides, modernes et qui convertissent pour les entrepreneurs africains. Ma force : transformer peu de moyens en produits pros.</p>
+  </div>
+
+  <div class="cv-card">
+    <h3>💻 COMPÉTENCES</h3>
+    <div class="skill"><span>HTML / CSS</span><span>95%</span></div>
+    <div class="bar"><div style="width:95%"></div></div>
+    <div class="skill"><span>JavaScript</span><span>85%</span></div>
+    <div class="bar"><div style="width:85%"></div></div>
+    <div class="skill"><span>Responsive Design</span><span>90%</span></div>
+    <div class="bar"><div style="width:90%"></div></div>
+    <div class="skill"><span>Git / GitHub</span><span>75%</span></div>
+    <div class="bar"><div style="width:75%"></div></div>
+    <div class="skill"><span>Mobile First / Acode / Termux</span><span>100%</span></div>
+    <div class="bar"><div style="width:100%"></div></div>
+  </div>
+
+  <div class="cv-card">
+    <h3>🚀 EXPÉRIENCE</h3>
+    <div class="timeline-item">
+      <strong>Développeur Web Freelance - Kamina</strong><br>
+      <small style="color:#666">2024 - Aujourd'hui</small>
+      <p style="margin-top:6px;color:#aaa">Création de sites vitrines pour commerçants locaux, optimisation mobile, intégration WhatsApp Business. 100% codé sur Android.</p>
+    </div>
+    <div class="timeline-item">
+      <strong>Projet Personnel - Écosystème Village</strong><br>
+      <small style="color:#666">2023 - 2024</small>
+      <p style="margin-top:6px;color:#aaa">Idéation d'applications pour connecter les villages sans ordinateur. Apprentissage intensif du Full Stack en autodidacte.</p>
+    </div>
+  </div>
+
+  <div class="cv-card">
+    <h3>🎓 FORMATION</h3>
+    <p><strong>Autodidacte Full Stack</strong> - OpenClassrooms, YouTube, MDN, GitHub</p>
+    <p style="color:#666;margin-top:4px">Spécialité : Développement Web Mobile First</p>
+  </div>
+
+  <div class="cv-card" style="text-align:center;background:#7c3aed;color:#000">
+    <h3 style="color:#000">Besoin d'un site qui vend ?</h3>
+    <p style="color:#000;opacity:.8">Disponible en 2h - Devis gratuit sur WhatsApp</p>
+    <a href="https://wa.me/243824326060" style="background:#000;color:#22c55e;padding:12px 24px;border-radius:100px;display:inline-block;margin-top:10px;font-weight:800">+243 824 326 060</a>
+  </div>
+
+</div>
+
+<footer>Fait à Kamina depuis un Android - 2026</footer>
+<script src="script.js"></script>
+</body>
+</html>
